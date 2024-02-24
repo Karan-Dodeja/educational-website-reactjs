@@ -5,6 +5,7 @@ import Home from "./components/Home/Home";
 import About from "./components/about/About";
 import CourseHome from "./components/allcourses/CourseHome";
 import Team from "./components/Home/team/Team.jsx";
+import Price from "./components/pricing/Price.jsx";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/about" Component={<About />}></Route>
         <Route path="/courses" Component={<CourseHome />}></Route>
         <Route path="/team" Component={<Team />}></Route>
+        <Route path="/pricing" Component={<Price />}></Route>
       </Router>
     </div>
   );
