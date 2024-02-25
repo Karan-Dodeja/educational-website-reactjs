@@ -8,6 +8,7 @@ import Team from "./components/Home/team/Team.jsx";
 import Price from "./components/pricing/Price.jsx";
 import Blog from "./components/blog/Blog.jsx";
 import Contact from "./components/contact/Contact.jsx";
+import Footer from "./components/common/footer/Footer.jsx";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/pricing" Component={<Price />}></Route>
         <Route path="/blog" Component={<Blog />}></Route>
         <Route path="/contact" Component={<Contact />}></Route>
+        <Footer />
       </Router>
     </div>
   );
