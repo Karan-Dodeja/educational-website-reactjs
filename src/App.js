@@ -7,6 +7,7 @@ import CourseHome from "./components/allcourses/CourseHome";
 import Team from "./components/Home/team/Team.jsx";
 import Price from "./components/pricing/Price.jsx";
 import Blog from "./components/blog/Blog.jsx";
+import Contact from "./components/contact/Contact.jsx";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/team" Component={<Team />}></Route>
         <Route path="/pricing" Component={<Price />}></Route>
         <Route path="/blog" Component={<Blog />}></Route>
+        <Route path="/contact" Component={<Contact />}></Route>
       </Router>
     </div>
   );
